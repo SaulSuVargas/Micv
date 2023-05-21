@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------- ICONOS (UNICONS) -------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style_cv.css">
+
+    <title>CV - SAULSU</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">SaulSu</a>
+
+            <div class="nav_menu" id="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon "></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#perfil" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> Perfil
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#edu" class="nav_link">
+                            <i class="uil uil-book-alt nav_icon"></i> Educacion
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skil" class="nav_link">
+                            <i class="uil uil-file-info-alt nav_icon"></i></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#expe" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Experiencia
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#certi" class="nav_link">
+                            <i class="uil uil-award-alt nav_icon"></i> Certificaciones
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_togle" id="nav-togle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main container">
+        <div class="cv" id="area-cv">
+            <div class="cv_left">
+                <!-- SECCION INICIO -->
+                <section class="inicio" id="home">
+                    <div class="inicio_container section inicio grid">
+                        <div class="inicio_datos grid">
+                            <img src="img/perfil_cv.jpg" alt="" class="inicio_img">
+
+                            <h1 class="inicio_titulo">Saul <b>SU VARGAS</b></h1>
+                            <h3 class="inicio_subtitulo">ING Software</h3>
+
+                            <div>
+                                <a download="" href="cv/my_cv-su.pdf" class="inicio_boton-dow">Descargar CV</a>
+                            </div>
+                        </div>
+
+                        <div class="inicio_correo grid">
+                            <span class="inicio_info">
+                                <i class="uil uil-map-marker inicio_icon"></i> Av Puente Piedra #473 Lima - Perú
+                            </span>
+                            <span class="inicio_info">
+                                <i class="uil uil-envelope inicio_icon"></i> lidiosaulsu@gmail.com
+                            </span>
+                            <span class="inicio_info">
+                                <i class="uil uil-phone inicio_icon"></i> 933-664-470
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- DESCARGAR PDF-->
+                    <i class="uil uil-download-alt generar-pdf" title="Generar PDF" id="cv-boton"></i>
+                </section>
+
+                <!-- SECCION SOCIAL -->
+                <section class="social section">
+                    <h2 class="section_titulo">REDES SOCIALES</h2>
+
+                    <div class="social_container grid">
+                        <a href="https://www.linkedin.com/in/lidio-saul-su-vargas-547982247/" target="_blank" class="social_link">
+                            <i class="uil uil-linkedin social_icon"></i>  @LidioSaulSuVargas
+                        </a>
+                        <a href="https://github.com/SaulSuVargas" target="_blank" class="social_link">
+                            <i class="uil uil-github social_icon"></i> @SaulSuVargas
+                        </a>
+                        <a href="https://www.instagram.com/saulsuvargas/" target="_blank" class="social_link">
+                            <i class="uil uil-instagram social_icon"></i> @saulsuvargas
+                        </a>
+                    </div>
+                </section>
+
+                <!-- SECCION PERFIL -->
+                <section class="perfil section" id="perfil">
+                    <h2 class="section_titulo">Perfil</h2>
+
+                    <p class="perfil_info">Soy un estudiante de la carrera de ing de software, con conocimeintos 
+                        intermedios en desarrollo web, java, python y js. Ademas soy una persona autodidacta con un 
+                        gran aprendizaje continuo.
+                        Y porsupuesto con muchas ganas de poner en practica mis habilidades!
+                    </p>
+                </section>
+
+                <!-- SECCION EDUCACION -->
+                <section class="edu section" id="edu">
+                    <h2 class="section_titulo">Educación</h2>
+                    <div class="edu_container grid">
+                        <div class="edu_contenido">
+                            <div class="edu_time">
+                                <span class="edu_ronda"></span>
+                                <spab class="edu_line"></spab>
+                            </div>
+
+                            <div class="edu_datos grid">
+                                <h3 class="edu_titulo">ING de Software</h3>
+                                <span class="edu_subtitulo">INSTITUTO SENATI</span>
+                                <span class="edu_year">2021 - 2024</span>
+                            </div>
+                        </div>
+                        <div class="edu_contenido">
+                            <div class="edu_time">
+                                <span class="edu_ronda"></span>
+                                <spab class="edu_line"></spab>
+                            </div>
+
+                            <div class="edu_datos grid">
+                                <h3 class="edu_titulo">Desarrollo Web</h3>
+                                <span class="edu_subtitulo">FreeCodeCamp - Open Bootcamp</span>
+                                <span class="edu_year">2022 - 2023</span>
+                            </div>
+                        </div>
+                        <div class="edu_contenido">
+                            <div class="edu_time">
+                                <span class="edu_ronda"></span>
+                            </div>
+
+                            <div class="edu_datos grid">
+                                <h3 class="edu_titulo">Conceptos de Programación</h3>
+                                <span class="edu_subtitulo">Open Bootcamp</span>
+                                <span class="edu_year">2022 - 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECCION SKILLS -->
+                <section class="skil section" id="skil">
+                    <h2 class="section_titulo">Skills</h2>
+
+                    <div class="skil_contenido grid">
+                        <ul class="skil_datos">
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> HTML
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> CSS
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> Java Script
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> React
+                            </li>
+                        </ul>
+                        <ul class="skil_datos">
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> Python
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> Java
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> Oracle
+                            </li>
+                            <li class="skil_name">
+                                <span class="skil_cir"></span> GODOT - ALICE
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="cv_right">
+                <!-- SECCION EXPRIENCIA -->
+                <section class="exp section" id="expe">
+                    <h2 class="section_titulo">Experiencia</h2>
+
+                    <div class="expe_container grid">
+                        <div class="expe_contenido">
+                            <div class="expe_time">
+                                <span class="expe_ronda"></span>
+                                <span class="expe_line"></span>
+                            </div>
+
+                            <div class="expe_datos grid">
+                                <h3 class="expe_titulo">YANGO STORE</h3>
+                                <span class="expe_pro">Proyecto Monetizado - 2023 Abril</span>
+                                <p class="expe_info">Esta pagina web ,fue mi primer proyecto monetizado, y el proyecto se dio debido a un cliente familiar, 
+                                    ya con conocimientos previos de mi carrera. El cual me solicito una pagina web responsive estatica, basada en la venta de productos de 
+                                    alianza lima.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="expe_contenido">
+                            <div class="expe_time">
+                                <span class="expe_ronda"></span>
+                                <span class="expe_line"></span>
+                            </div>
+
+                            <div class="expe_datos grid">
+                                <h3 class="expe_titulo">SENATI WEB SITE</h3>
+                                <span class="expe_pro">Proyecto Acádemico - 2022 Diciembre</span>
+                                <p class="expe_info">Esta pagina web, fue uno de mis proyectos academicos que realice en mi instituto. La cual se origino a base de un 
+                                    proyecto final del curso de desarrollo web, el cual nos solicitaro hacer una pagina responsive dinamica, haciendo uso de HTML, CSS Y JS.
+                                    El tema de la pagina era libre, por lo tanto pense en mi instituto, ya que cuenta con una pagina de hace años y quize hacer una moderna.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="expe_contenido">
+                            <div class="expe_time">
+                                <span class="expe_ronda"></span>
+                            </div>
+
+                            <div class="expe_datos grid">
+                                <h3 class="expe_titulo">WORLD ZOMBIES</h3>
+                                <span class="expe_pro">Proyecto Acádemico - 2022 Agosto</span>
+                                <p class="expe_info">Este juego ,fue unos de mis  primeros proyectos de videojuegos en 2D, que realice en mi instituto. La cual se origino 
+                                    como proyecto final de mi curso de Desarrollo de Videojuegos. El cual nos solicitaron un juego,que cuente con las tecnologias de GBSCRIPT - GODOT.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- SECCION CERTIFICACIONES -->
+                <section class="certi section" id="certi">
+                    <h2 class="section_titulo">Certificados</h2>
+                    <div class="certi_container grid">
+                        <div class="certi_contenido">
+                            <h3 class="certi_titulo">Curso de Desarrollo Web | FreeCodeCamp</h3>
+                            <p class="certi_info">En esta certificación de Diseño Web Adaptativo, aprendí los lenguajes que los desarrolladores 
+                                usan para construir páginas web: HTML (Lenguaje de Marcado de Hipertexto) para el contenido, CSS (hojas de estilo 
+                                en cascada) para el diseño y JS (Java Script) para realizar una pagina dinámica con funciones.</p>
+                        </div>
+                        <div class="certi_contenido">
+                            <h3 class="certi_titulo">Curso de Python | CISCO</h3>
+                            <p class="certi_info">Este curso fue un excelente lugar para comenzar a aprender Python, ya que no se requieren 
+                                conocimientos previos de programación. Y cuando complete el curso aprendi habilidades fundamentales, como el analisis de datos, 
+                                diseñar y desarrollar programas y por ultimo adquiri conocimientos en estructura y logica de datos.</p>
+                        </div>
+                        <div class="certi_contenido">
+                            <h3 class="certi_titulo">Curso de conceptos de la programación | OpenBootcamp</h3>
+                            <p class="certi_info">Este curso fue muy impotante ya que fue el principio de mi aspiracion a programador, ya que fue
+                                un curso introductorio a la programación. En la cual me enseñaoron a darle vida a un código mediante otro, 
+                                por ejemplo, los lenguajes de programación se utilizan para desarrollar aplicaciones que después serán reproducidas dentro de un ambiente con el mismo lenguaje.
+                            </p>
+                        </div>
+                        <div class="certi_contenido">
+                            <h3 class="certi_titulo">Curso de Java Fundamentals | Oracle</h3>
+                            <p class="certi_info">Gracias a este curso, aprendí a codificar en Java para crear aplicaciones web RESTful. A
+                                Al tomar este curso, recibí una base sólida en el lenguaje de programación Java y habilidades de codificación del 
+                                mundo real sobre las cuales basar el trabajo y la capacitación continua.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECCION LENGUAJES -->
+                <section class="lenguajes section">
+                    <h2 class="section_titulo">Lenguajes</h2>
+                    <div class="lenguajes_container">
+                        <ul class="lenguaje_contenido grid">
+                            <li class="lenguaje_name">
+                                <span class="lenguaje_cir"></span> Español
+                            </li>
+                            <li class="lenguaje_name">
+                                <span class="lenguaje_cir"></span> Ingles - Básico
+                            </li>
+                            <li class="lenguaje_name">
+                                <span class="lenguaje_cir"></span> Frances - Por aprender
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--SECCION INTERESES -->
+                <section class="interes section">
+                    <h2 class="section_titulo">Interéses</h2>
+                    <div class="interes_container grid">
+                        <div class="interes_contenido">
+                            <i class="uil uil-building interes_icon"></i>
+                            <span class="interes_name">Trabajo prescencial</span>
+                        </div>
+                        <div class="interes_contenido">
+                            <i class="uil uil-laptop interes_icon"></i>
+                            <span class="interes_name">Trabajo remoto</span>
+                        </div>
+                        <div class="interes_contenido">
+                            <i class="uil uil-house-user interes_icon"></i>
+                            <span class="interes_name">Trabajo Híbrido</span>
+                        </div>
+                        <div class="interes_contenido">
+                            <i class="uil uil-users-alt interes_icon"></i>
+                            <span class="interes_name">Trabajo en equipo</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- SCROLL ARRIBA-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="uil uil-arrow-up scrolltop_icon"></i>
+    </a>
+
+    <!-- GENERAR PDF -->
+    <script src="js/html2pdf.bundle.min.js"></script>
+    <!-- SCRIP MAIN-->
+    <script src="js/main_cv.js"></script>
+</body>
+</html>
